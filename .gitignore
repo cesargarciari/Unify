@@ -1,0 +1,14 @@
+# --- Python / backend ---
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# --- Node / frontend (safety in case a top-level node_modules appears) ---
+node_modules/
+dist/
+.next/
+
+# Env files at root
+.env
+.env.*
